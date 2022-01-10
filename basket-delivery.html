@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<!-- slider SwiperJs -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  
+  <!-- jQueryUI -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+
+	<!-- style -->
+	<link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+	<div class="wrapper page-basket page-basket--delivery other-page">
+
+		<header class="header">
+			<div class="header__container container">
+
+				<div class="mobile">
+					<div class="gmbruger">
+						<svg width="25" height="17" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect y="14" width="25" height="3" rx="1.5" fill="#65906C"/>
+							<rect y="7" width="25" height="3" rx="1.5" fill="#65906C"/>
+							<rect width="25" height="3" rx="1.5" fill="#65906C"/>
+						</svg>
+					</div>
+					<span>МЕНЮ</span>
+				</div>		
+
+				<a href="index.html" class="header__logo logo">Logos</a>
+
+				<div class="header__search search">
+					<form action="/">
+						<i class="search__icon-location icon icon-location"></i>
+						<input type="text" placeholder="Введите адрес доставки">
+						<i class="search__icon-search icon icon-search"></i>
+					</form>
+				</div>
+
+				<div class="header__contact header-contact">
+					<div class="header-contact__icon-wrapper">
+						<i class="header-contact__icon icon icon-calling"></i>
+					</div>
+					<div class="header-contact__text">
+						<span>Контакты:</span>
+						<b>+7 (917) 510-57-59</b>
+					</div>
+				</div>
+
+				<div class="header__basket basket">
+	<!-- style -->
+					<a href="basket-delivery.html" class="header__basket basket__link">
+						<i class="basket__icon icon icon-buy"></i>
+						<span>Корзина</span>
+						<div class="basket__number number">
+							<span>4</span>
+						</div>
+					</a>
+				</div>
+
+			</div>
+		</header>
+
+		<section class="navigation">
+			<div class="navigation__container container">
+				<div class="header__basket navigation__basket basket">
+	<!-- style -->
+					<a href="basket-delivery.html" class="header__basket basket__link">
+						<i class="basket__icon icon icon-buy d-none"></i>
+						<span>Корзина</span>
+						<div class="basket__number number">
+							<span>4</span>
+						</div>
+					</a>
+				</div>
+				<nav class="navigation__swiper swiper">
+					<ul class="navigation__swiper-wrapper swiper-wrapper">
+						<li class="navigation__swiper-slide swiper-slide"><a href="index.html" class="navigation__link">Холодные закуски</a></li>
+						<li class="navigation__swiper-slide swiper-slide"><a href="index.html" class="navigation__link">Горячие закуски</a></li>
+						<li class="navigation__swiper-slide swiper-slide"><a href="index.html" class="navigation__link navigation__link--3">Мясные блюда</a></li>
+						<li class="navigation__swiper-slide swiper-slide"><a href="#" class="navigation__link navigation__link--4">Супы</a></li>
+						<li class="navigation__swiper-slide swiper-slide"><a href="#" class="navigation__link navigation__link--5">Рыбные блюда</a></li>
+						<li class="navigation__swiper-slide swiper-slide"><a href="#" class="navigation__link navigation__link--6">Гриль меню</a></li>
+						<li class="navigation__swiper-slide swiper-slide"><a href="#" class="navigation__link navigation__link--7">Фирменные блюда</a></li>
+						<li class="navigation__swiper-slide swiper-slide"><a href="#" class="navigation__link navigation__link--8">Напитки</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+
+		<section class="basket-products">
+			<div class="basket-products__container container">
+				
+				<div class="path">
+					<a href="index.html" class="path__icon-wrapper">
+					<i class="icon path__icon icon-green-arrow-left"></i>
+					</a>
+					<span class="path__link">к выбору блюда</span>
+				</div>
+
+				<h2 class="h2-title basket-products__title">КОРЗИНА<span>(в корзине 3 товара)</span></h2>
+				<ul class="basket-products__list">
+					<li class="basket-products__item">
+						<div class="basket-products__left">
+							<div class="basket-products__img">
+								<img src="img/basket-product-img.png" alt="img">
+							</div>
+						</div>
+
+						<div class="basket-products__right">
+							<div class="basket-products__center">
+								<h3 class="basket-products__name"><a href="#">ПИЦЦА ДВОЙНАЯ ПЕППЕРОНИ</a></h3>
+								<span>
+									Кальмары, мидии, креветки, сыр маасдам, 
+									красный лук, микс оливок, базилик, соус песто
+								</span>
+							</div>
+
+							<div class="basket-products__end">
+								<div class="basket-products__count-wrapper">
+									<button class="basket-products__btn basket-products__btn--count basket-products__btn--minus">
+										<i class="icon basket-products__icon icon-minus"></i>
+									</button>
+									<div class="basket-products__item-count">1</div>
+									<button class="basket-products__btn basket-products__btn--count basket-products__btn--plus">
+										<i class="icon basket-products__icon icon-plus"></i>
+									</button>
+								</div>
+								<p class="basket-products__price"><span data-price="1640">1640</span> ₽</p>
+								<button class="basket-products__btn basket-products__btn--clear">
+									<i class="icon basket-products__icon icon-clear"></i>
+								</button>
+							</div>
+						</div>
+
+						<svg width="1096" height="1" viewBox="0 0 1096 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line x1="4.37114e-08" y1="0.5" x2="1096" y2="0.500096" stroke="url(#paint0_linear_69_498)"/>
+							<defs>
+							<linearGradient id="paint0_linear_69_498" x1="1096" y1="1.0001" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+							<stop stop-color="white" stop-opacity="0"/>
+							<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+							</linearGradient>
+							</defs>
+						</svg>
+					</li>
+
+					<li class="basket-products__item">
+						<div class="basket-products__left">
+							<div class="basket-products__img">
+								<img src="img/basket-product-img.png" alt="img">
+							</div>
+						</div>
+
+						<div class="basket-products__right">
+							<div class="basket-products__center">
+								<h3 class="basket-products__name"><a href="#">ПИЦЦА ДВОЙНАЯ ПЕППЕРОНИ</a></h3>
+								<span>
+									Кальмары, мидии, креветки, сыр маасдам, 
+									красный лук, микс оливок, базилик, соус песто
+								</span>
+							</div>
+
+							<div class="basket-products__end">
+								<div class="basket-products__count-wrapper">
+									<button class="basket-products__btn basket-products__btn--count basket-products__btn--minus">
+										<i class="icon basket-products__icon icon-minus"></i>
+									</button>
+									<div class="basket-products__item-count">1</div>
+									<button class="basket-products__btn basket-products__btn--count basket-products__btn--plus">
+										<i class="icon basket-products__icon icon-plus"></i>
+									</button>
+								</div>
+								<p class="basket-products__price"><span data-price="1640">1640</span> ₽</p>
+								<button class="basket-products__btn basket-products__btn--clear">
+									<i class="icon basket-products__icon icon-clear"></i>
+								</button>
+							</div>
+						</div>
+
+						<svg width="1096" height="1" viewBox="0 0 1096 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line x1="4.37114e-08" y1="0.5" x2="1096" y2="0.500096" stroke="url(#paint0_linear_69_498)"/>
+							<defs>
+							<linearGradient id="paint0_linear_69_498" x1="1096" y1="1.0001" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+							<stop stop-color="white" stop-opacity="0"/>
+							<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+							</linearGradient>
+							</defs>
+						</svg>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="add-products">
+			<div class="add-products__container container">
+				<h2 class="h2-title add-products__title">ДОБАВИТЬ К ЗАКАЗУ</h2>
+				<ul class="add-products__list">
+					<li class="add-products__item">
+						<div class="add-products__left">
+							<div class="add-products__img">
+								<img src="img/add-product-img.png" alt="img">
+							</div>
+						</div>
+						<div class="add-products__right">
+							<h4 class="add-products__item-title">КВАС АНАНАСОВЫЙ</h4>
+							<div class="add-products_wrp">
+								<div class="add-products__add">
+									<span>Добавить</span>
+									<button class="basket-products__btn basket-products__btn--count basket-products__btn--plus">
+										<i class="icon basket-products__icon icon-plus"></i>
+									</button>
+								</div>
+								<p class="add-products__price">1640 ₽</p>
+							</div>
+						</div>
+						<svg width="1" height="235" viewBox="0 0 1 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line x1="0.5" y1="235" x2="0.50001" y2="-2.18557e-08" stroke="url(#paint0_linear_69_505)"/>
+							<defs>
+							<linearGradient id="paint0_linear_69_505" x1="1.00001" y1="0" x2="1" y2="235" gradientUnits="userSpaceOnUse">
+							<stop stop-color="white" stop-opacity="0"/>
+							<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+							</linearGradient>
+							</defs>
+						</svg>
+					</li>
+					<li class="add-products__item">
+						<div class="add-products__left">
+							<div class="add-products__img">
+								<img src="img/add-product-img.png" alt="img">
+							</div>
+						</div>
+						<div class="add-products__right">
+							<h4 class="add-products__item-title">КВАС АНАНАСОВЫЙ</h4>
+							<div class="add-products_wrp">
+								<div class="add-products__add">
+									<span>Добавить</span>
+									<button class="basket-products__btn basket-products__btn--count basket-products__btn--plus">
+										<i class="icon basket-products__icon icon-plus"></i>
+									</button>
+								</div>
+								<p class="add-products__price">1640 ₽</p>
+							</div>
+						</div>
+						<svg width="1" height="235" viewBox="0 0 1 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line x1="0.5" y1="235" x2="0.50001" y2="-2.18557e-08" stroke="url(#paint0_linear_69_505)"/>
+							<defs>
+							<linearGradient id="paint0_linear_69_505" x1="1.00001" y1="0" x2="1" y2="235" gradientUnits="userSpaceOnUse">
+							<stop stop-color="white" stop-opacity="0"/>
+							<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+							</linearGradient>
+							</defs>
+						</svg>
+					</li>
+					<li class="add-products__item">
+						<div class="add-products__left">
+							<div class="add-products__img">
+								<img src="img/add-product-img.png" alt="img">
+							</div>
+						</div>
+						<div class="add-products__right">
+							<h4 class="add-products__item-title">КВАС АНАНАСОВЫЙ</h4>
+							<div class="add-products_wrp">
+								<div class="add-products__add">
+									<span>Добавить</span>
+									<button class="basket-products__btn basket-products__btn--count basket-products__btn--plus">
+										<i class="icon basket-products__icon icon-plus"></i>
+									</button>
+								</div>
+								<p class="add-products__price">1640 ₽</p>
+							</div>
+						</div>
+						<svg width="1" height="235" viewBox="0 0 1 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line x1="0.5" y1="235" x2="0.50001" y2="-2.18557e-08" stroke="url(#paint0_linear_69_505)"/>
+							<defs>
+							<linearGradient id="paint0_linear_69_505" x1="1.00001" y1="0" x2="1" y2="235" gradientUnits="userSpaceOnUse">
+							<stop stop-color="white" stop-opacity="0"/>
+							<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+							</linearGradient>
+							</defs>
+						</svg>
+					</li>
+					<li class="add-products__item">
+						<div class="add-products__left">
+							<div class="add-products__img">
+								<img src="img/add-product-img.png" alt="img">
+							</div>
+						</div>
+						<div class="add-products__right">
+							<h4 class="add-products__item-title">КВАС АНАНАСОВЫЙ</h4>
+							<div class="add-products_wrp">
+								<div class="add-products__add">
+									<span>Добавить</span>
+									<button class="basket-products__btn basket-products__btn--count basket-products__btn--plus">
+										<i class="icon basket-products__icon icon-plus"></i>
+									</button>
+								</div>
+								<p class="add-products__price">1640 ₽</p>
+							</div>
+						</div>
+						<svg width="1" height="235" viewBox="0 0 1 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line x1="0.5" y1="235" x2="0.50001" y2="-2.18557e-08" stroke="url(#paint0_linear_69_505)"/>
+							<defs>
+							<linearGradient id="paint0_linear_69_505" x1="1.00001" y1="0" x2="1" y2="235" gradientUnits="userSpaceOnUse">
+							<stop stop-color="white" stop-opacity="0"/>
+							<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+							</linearGradient>
+							</defs>
+						</svg>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="last-price">
+			<div class="last-price__container container">
+				<div class="last-price__text">
+					<p class="last-price__price">Итого: <strong>500 ₽</strong> </p>
+					<p>
+						До бесплатной доставки не хватет: <span class="last-price__green">100 ₽</span>
+					</p>
+					<p>
+						Минимальная сума заказа 1500 ₽
+					</p>
+				</div>
+				<a href="checkout.html" class="last-price__btn">Оформить заказ</a>
+			</div>
+		</div>
+
+
+		<footer class="footer">
+			<div class="footer__container container">
+				<button class="arrow-top">
+					<i class="icon icon-arrow-top"></i>
+				</button>
+				<div class="footer__center">
+					<a href="index.html" class="footer__logo logo">Logos</a>
+					<span>
+						© ООО СК «АПШЕРОН» 
+						Все права защищены. 2010-2020
+					</span>
+					<ul>
+						<li><a href="#">Пользовательское соглашение</a></li>
+						<li><a href="#">Карта сайта</a></li>
+						<li><a href="#">Политика конфиденциальности</a></li>
+					</ul>
+				</div>
+				<ul class="footer__menu">
+					<li><a href="#">О ресторане</a></li>
+					<li><a href="#">Условия доставки</a></li>
+					<li><a href="#">Возврат товара</a></li>
+					<li><a href="#">Акции</a></li>
+				</ul>
+
+			</div>
+		</footer>
+
+		<div class="gradiend-down"></div>
+
+	</div>
+
+	<div class="popup-basket__bg"></div>
+	<div class="popup popup-basket">
+		<i class="popup-exit icon popup-basket__icon icon-clear"></i>
+		<div class="popup-basket__img">
+			<img src="img/icons/basket-popup-icon.svg" alt="img">
+		</div>
+		<p>КОРЗИНА ПУСТАЯ</p>
+		<a href="index.html" class="popup-basket__btn">Посмотреть меню</a>
+	</div>
+
+	<!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+	<!-- slider SwiperJs -->
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+	<!-- jQueryUI -->
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
